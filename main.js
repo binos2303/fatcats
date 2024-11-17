@@ -33,7 +33,7 @@ iconCart.addEventListener('click', openCart);
 closeCartIcon.addEventListener('click', closeCart);
 
 document.addEventListener("click", function(event) {
-    if (cartBox.classList.contains("active") && !cartBox.contains(event.target) && event.target !== iconCart) {
+    if (cartBox.classList.contains("active") && cartBox.contains(event.target) && event.target !== iconCart) {
         cartBox.classList.remove("active");
         overlay.classList.remove("active");
         document.body.style.overflow = "auto";
