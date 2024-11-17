@@ -59,6 +59,7 @@ iconUser.addEventListener("click", function(){
     if(localStorage.getItem("checkLogin")===null){
         const exit= {check:0};
         localStorage.setItem("checkLogin", JSON.stringify(exit));
+
         window.location.href="/register-login/login.html";
     }
     else if(checkLogin.check===1){
@@ -75,6 +76,7 @@ iconUser.addEventListener("click", function(){
         }  
     }else{
         window.location.href="/register-login/login.html";
+
     }
 });
 //---------------------------------------------------------------
