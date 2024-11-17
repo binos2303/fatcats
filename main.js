@@ -60,7 +60,7 @@ iconUser.addEventListener("click", function(){
         const exit= {check:0};
         localStorage.setItem("checkLogin", JSON.stringify(exit));
 
-        window.location.href="register-login/login.html";
+        window.location.href="/top/bin230305.github.io/fatcats/register-login/login.html";
     }
     else if(checkLogin.check===1){
         const userLogin = JSON.parse(localStorage.getItem("userLogin"));
@@ -68,15 +68,15 @@ iconUser.addEventListener("click", function(){
         let useremail = loginInfoCell.getElementsByClassName("info__login--email")[0].innerHTML=userLogin.email;
         if(iconUser.nextElementSibling.style.display==="block"){
             iconUser.nextElementSibling.style.display="none";
-            iconUser.classList.remove("active");
+            // iconUser.classList.remove("active");
         }
         else{ 
-            iconUser.classList.add("active");
+            // iconUser.classList.add("active");
             iconUser.nextElementSibling.style.display="block";
         }  
     }else{
-        window.location.href="register-login/login.html";
-        iconUser.classList.remove("active");
+        window.location.href="/register-login/login.html";
+        // iconUser.classList.remove("active");
     }
 });
 //---------------------------------------------------------------
