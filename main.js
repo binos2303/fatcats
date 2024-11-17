@@ -76,7 +76,7 @@ iconUser.addEventListener("click", function(){
         }  
     }else{
         window.location.href="register-login/login.html";
-
+        iconUser.classList.remove("active");
     }
 });
 //---------------------------------------------------------------
