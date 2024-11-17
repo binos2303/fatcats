@@ -59,7 +59,7 @@ iconUser.addEventListener("click", function(){
     if(localStorage.getItem("checkLogin")===null){
         const exit= {check:0};
         localStorage.setItem("checkLogin", JSON.stringify(exit));
-        window.location.href="/FATCATS PROJECT/register-login/pages/login.html";
+        window.location.href="/register-login/login.html";
     }
     else if(checkLogin.check===1){
         const userLogin = JSON.parse(localStorage.getItem("userLogin"));
@@ -74,7 +74,7 @@ iconUser.addEventListener("click", function(){
             iconUser.nextElementSibling.style.display="block";
         }  
     }else{
-        window.location.href="/FATCATS PROJECT/register-login/pages/login.html";
+        window.location.href="/register-login/login.html";
     }
 });
 //---------------------------------------------------------------
