@@ -75,7 +75,7 @@ iconUser.addEventListener("click", function(){
             iconUser.nextElementSibling.style.display="block";
         }  
     }else{
-        window.location.href="/register-login/login.html";
+        window.location.href="/top/bin230305.github.io/fatcats/register-login/login.html";
         // iconUser.classList.remove("active");
     }
 });
