@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title> Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon_fatcats.ico" type="image/ico" style="border-radius: 10px;">
+    
+</head>
+<body>
+    <header class="header ">
+        <div class="header_left">
+            <div class="header_logo">
+                <a href="homepage.html"><img src="image/logo_fatcats.jpg" id="logo-FATCATS"></a>
+            </div>
+        </div>
+        <div class="header_mid">
+            <nav class="header_mid-nav">
+                <div class="header_mid-nav-cell">
+                    <a data-classify-page="home" href="homepage.html" class="header_mid-nav-item">HOME</a>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="shop.html" class="header_mid-nav-item">SHOP</a>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="classify/classify.html" class="header_mid-nav-item">CLASSIFY</a>
+                    <i class="fa-solid fa-angle-down icon_classify"></i>
+                    <div class="header_mid-nav-cell-1">
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-dragonbal.html" class="header_mid-nav-item-1">Dragon Ball</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-naruto.html" class="header_mid-nav-item-1">Naruto</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-gundam.html" class="header_mid-nav-item-1">Gundam</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-onepiece.html" class="header_mid-nav-item-1">One Piece</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-pokemon.html" class="header_mid-nav-item-1">Pokemon</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-lol.html" class="header_mid-nav-item-1">LoL</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="about.html" class="header_mid-nav-item">ABOUT US</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header_right">
+            <div class="header_right-item">
+                <form class="search_box">
+                        <input class="search_box-input" type="text" placeholder="Tìm kiếm...">
+                    <button class="search_box-btn">
+                        <i class="fa-solid fa-magnifying-glass search-box__item"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header_right-item">
+                    <i class="fa-solid fa-user header_right-item-icon icon_user"></i>
+                    <div class="login__info--cell">
+                        <div class="login__info--content">
+                            <div class="login__info--detail">
+                                <pc class="info__login--title">Thông tin tài khoản:</pc>
+                                <p class="info__login--name"></p>
+                                <p class="info__login--email"></p>
+                            </div>
+                            <div class="logout__btn">Đăng xuất</div>
+                        </div>
+                    </div> 
+            </div>
+            <div class="header_right-item">
+                <i class="fa-solid fa-bag-shopping header_right-item-icon icon_cart">
+                    <div class="total_card_cell">
+                        <span class="total_card">0</span>
+                    </div>
+                </i>
+            </div>
+            <div class="header_right-item">
+                    <i class="fa-solid fa-bars header_right-item-icon icon_menu"></i>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <ul class="menu__box">
+            
+            <li class="menu__item">
+                <a href="homepage.html" class="menu__item--link">
+                    <img src="image/logo_fatcats.jpg" alt="">
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="homepage.html" class="menu__item--link">Home</a>
+            </li>
+            <li class="menu__item">
+                <a href="shop.html" class="menu__item--link">Shop</a>
+            </li>
+            <li class="menu__item">
+                <a href="about.html" class="menu__item--link">About Us</a>
+            </li>
+            <li class="menu__item menu__close--btn">
+                <i class="fa-solid fa-x " id="close-btn"></i>
+            </li>
+        </ul>
+        <div class="cart_box">
+            <div id="cart_title">
+                <h1>CART</h1>
+                <div class="cart_close-btn">
+                    <i class="fa-solid fa-x " id="close-btn"></i>
+                </div>
+            </div>
+            <div class="cart_product-list"></div>
+            <div class="cart_total-sumit">
+                <div class="total-title">Total</div>
+                <p class="total-price">0</p>
+            </div>
+            <div class="cart_buy-btn">
+                <p id="buy-btn">BUY NOW</p>
+            </div>
+            
+        </div>
+    </header>
+    <div class="slider_box">
+        <div class="slider_box-list">
+            <div class="slider-img black-opaciy">
+                <img class="slider-img-item" src="image/banner_dragonball.jpg">
+            </div>
+            <div class="slider-img black-opaciy">
+                <img class="slider-img-item"  src="image/banner_naruto.jpg" >
+            </div>
+            <div class="slider-img black-opaciy">
+                <img class="slider-img-item"  src="image/banner_gundam.jpg">
+            </div>
+            <div class="slider-img black-opaciy">
+                <img class="slider-img-item"  src="image/banner_onepease.jpg">
+            </div>
+            <div class="slider-img black-opaciy">
+                <img class="slider-img-item"  src="image/banner_pokemon.jpg">
+            </div>
+            <div class="slider-img black-opaciy">
+                <img class="slider-img-item"  src="image/banner_lol.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="brand_list">
+        <div class="brand_item">
+            <img src="image/brand_img-dragonball.jpg" id="brand_img">
+        </div>
+        <div class="brand_item">
+            <img src="image/brand_img-naruto.jpg" id="brand_img">
+        </div>
+        <div class="brand_item">
+            <img src="image/brand_img-gundam.jpg" id="brand_img">
+        </div>
+        <div class="brand_item">
+            <img src="image/brand_img-onepiece.jpg" id="brand_img">
+        </div>
+        <div class="brand_item">
+            <img src="image/brand_img-pokemon.jpg" id="brand_img">
+        </div>
+        <div class="brand_item">
+            <img src="image/brand_img-lol.jpg" id="brand_img">
+        </div>
+    </div> 
+    <main class="main_product">
+        <aside class="classify_cell">
+            <ul class="classify_list">
+                <li class="classify_list-item">
+                    <a href="#allproducts" data-type="allproducts" class="classify_list-link">ALL PRODUCTS</a>
+                </li>
+                <li class="classify_list-item">
+                    <a href="#dragonball" data-type="dragonball" class="classify_list-link">DRAGON BALL</a>
+                </li>
+                <li class="classify_list-item">
+                    <a href="#naruto" data-type="naruto" class="classify_list-link">NARUTO</a>
+                </li>
+                <li class="classify_list-item">
+                    <a href="#gundam" data-type="gundam" class="classify_list-link">GUNDAM</a>
+                </li>
+                <li class="classify_list-item">
+                    <a href="#onepiece" data-type="onepiece" class="classify_list-link">ONE PIECE</a>
+                </li>
+                <li class="classify_list-item">
+                    <a href="#pokemon" data-type="pokemon" class="classify_list-link">POKEMON</a>
+                </li>
+                <li class="classify_list-item">
+                    <a href="#lol" data-type="lol" class="classify_list-link">LOL</a>
+                </li>
+            </ul>
+        </aside>
+        <article class="product_cell">
+            <div class="product_list">
+                <div class="product" id="db1" data-type="dragonball">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Dragon ball/db1/songoku-ultra-instinct(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=db1" class="product_name">Son Goku-Ultra Vô Cực</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">800.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>         
+                    </div>
+                </div>
+                <div class="product" id="db2" data-type="dragonball">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Dragon ball/db2/gohan-supper-saiyan2(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=db2" class="product_name">Gohan Super Saiyan 2</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">650.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="db3" data-type="dragonball">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Dragon ball/db3/vegeta-sieu-pham-3-dau(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=db3" class="product_name">Vegeta Siêu Phẩm 3 Đầu</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">600.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="db4" data-type="dragonball">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Dragon ball/db4/songoku-kid-dung-sieu-to(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=db4" class="product_name">Son Goku-Kid Đứng Siêu To</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.250.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">B-seller</p>
+                    </div>
+                </div>
+                <div class="product" id="005" data-type="dragonball">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Dragon ball/db5/goku-kid-chien-dau-sieu-to(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=db5" class="product_name">Son Goku-Kid Chiến Đấu Siêu To</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.250.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="op1" data-type="onepiece">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/One piece/op1/lufy-nika-gear-5(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=op1" class="product_name">Luffy Gear 5</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">300.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">B-seller</p>
+                    </div>
+                </div>
+                <div class="product" id="op2" data-type="onepiece">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/One piece/op2/ace-hoa-quyen-dang-dung(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=op2" class="product_name">Ace Hỏa Quyền</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">550.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="op3" data-type="onepiece">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/One piece/op3/zoro-ai-chibi(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=op3" class="product_name">Zoro Ai Chibi</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">350.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">B-seller</p>
+                    </div>
+                </div>
+                <div class="product" id="op4" data-type="onepiece">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/One piece/op4/enel-rong-set-chien-dau(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=op4" class="product_name">Enel Rồng Sét Chiến Đấu</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">950.000<span><u>đ</u></span></span>
+                        <p class="product_prise">690.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                        <p class="product_label-title">B-seller</p>
+                    </div>
+                </div>
+                <div class="product" id="op5" data-type="onepiece">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/One piece/op5/mo-hinh-law-trang-thai-chien-dau(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=op5" class="product_name">Law Trạng Thái Chiến Đấu</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">850.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="gd1" data-type="gundam">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Gundam/gd1/Gundam HG BD-R Alus Earthree(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=gd1" class="product_name">Gundam HG BD-R Alus Earthree</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.200.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="gd2" data-type="gundam">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Gundam/gd2/Gundam RG GN-001 GUNDAM EXIA(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=gd2" class="product_name">Gundam RG GN-001 GUNDAM EXIA</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.250.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="gd3" data-type="gundam">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Gundam/gd3/Gundam HG Dynames(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=gd3" class="product_name">Gundam HG Dynames</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.550.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="gd4" data-type="gundam">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Gundam/gd4/RG Astray Gold Frame Amatsu Mina(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=gd4" class="product_name">RG Astray Gold Frame Amatsu Mina</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.350.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="gd5" data-type="gundam">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Gundam/gd5/Gundam RG MSN-04 Sazabi(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=gd5" class="product_name">Gundam RG MSN-04 Sazabi</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.650.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="p1" data-type="pokemon">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Pokemon/p1/Pokemon Pikachu cosplay Lizadon(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=p1" class="product_name">Pokemon Pikachu cosplay Lizadon</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">300.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="p2" data-type="pokemon">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Pokemon/p2/Pokemon Pikachu cosplay Ninja(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=p2" class="product_name">Pokemon Pikachu Cosplay Ninja</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">300.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="p3" data-type="pokemon">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Pokemon/p3/Pokemon Pikachu cosplay mew(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=p3" class="product_name">Pokemon Pikachu Cosplay Mew</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">300.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="p4" data-type="pokemon">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Pokemon/p4/Pokemon Pikachu cosplay Nyasu(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=p4" class="product_name">Pokemon Pikachu Cosplay Nyasu</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">300.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="n1" data-type="naruto">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Naruto/n1/Naruto Lục đạo Cửu Vĩ Rasengan(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=n1" class="product_name">Naruto Lục đạo Cửu Vĩ Rasengan</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">950.000<span><u>đ</u></span></span>
+                        <p class="product_prise">699.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                    </div>
+                </div>
+                <div class="product" id="n2" data-type="naruto">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Naruto/n2/Minato dáng đứng (main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=n2" class="product_name">Minato Dáng Đứng</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">700.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="n3" data-type="naruto">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Naruto/n3/Mô Hình Naruto Cửu Vĩ(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=n3" class="product_name">Naruto Cửu Vĩ</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">750.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                </div>
+                <div class="product" id="l1" data-type="lol">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/LOL/l1/The Ruined King Viego(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=l1" class="product_name">The Ruined King Viego</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">1.250.000<span><u>đ</u></span></span>
+                        <p class="product_prise">999.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                    </div>
+                </div>
+                <div class="product" id="l2" data-type="lol">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/LOL/l2/Jinx(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=l2" class="product_name">Jinx</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">1.100.000<span><u>đ</u></span></span>
+                        <p class="product_prise">999.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                    </div>
+                </div>
+    
+                
+                
+            </div>
+        </article>
+        <div class="product_cell-line"></div>
+        <div class="product_cell-numberslider"></div>
+    </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_content-logo">
+                <img src="image/logo_fatcats-footer2.png" alt="">
+                <p>FATCATS TEAM</p>
+            </div>
+            <div class="footer_content-contact">
+                <p class="footer_content-contact-title">THÔNG TIN LIÊN HỆ</p>
+                <div class="footer_content-contact-phone_number">
+                    <div class="footer_content-contact-phone_number-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <p>0987654321</p>
+                </div>
+                <div class="footer_content-contact-email">
+                    <div class="footer_content-contact-email-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a href="#emailteam">fcsteam@gmail.com</a>
+                </div>
+                <p class="footer_content-contact-title">MẠNG XÃ HỘI</p>
+                <ul class="list_unstyle footer_content-contact-link">
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content-policy">
+                <p class="footer_content-contact-title">CHÍNH SÁCH</p>
+                <ul class="list_unstyle footer_content-policy-list">
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Bảo Mật Thông Tin</a>
+                    </li>
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Thẻ Thành Viên</a>
+                    </li>
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Đổi Trả Hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content-signinform">
+                <p class="footer_content-contact-title">ĐĂNG KÝ NHẬN THÔNG TIN</p>
+                <form class="input_email">
+                    <input class="input_email-cell input_email-cell-text" type="email" placeholder="Nhập địa chỉ email của bạn">
+                    <input class="input_email-cell" type="submit" value="Gửi">
+                </form>
+            </div>
+        </div>
+        <div class="copyright_contents">
+            <p>Copyright &copy; 2024 Fatcats team.</p>
+        </div>
+        <i class="fa-solid fa-chevron-up" id="btn_backtotop"></i>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

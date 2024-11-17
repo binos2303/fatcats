@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/image/favicon_fatcats.ico" type="image/ico">
+</head>
+<body>
+    <header class="header">
+        <div class="header_left">
+            <div class="header_logo">
+                <a href="homepage.html"><img src="image/logo_fatcats.jpg" id="logo-FATCATS"></a>
+            </div>
+        </div>
+        <div class="header_mid">
+            <nav class="header_mid-nav">
+                <div class="header_mid-nav-cell">
+                    <a href="homepage.html" class="header_mid-nav-item">HOME</a>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="shop.html" class="header_mid-nav-item">SHOP</a>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="/classify/classify.html" class="header_mid-nav-item">CLASSIFY</a>
+                    <i class="fa-solid fa-angle-down icon_classify"></i>
+                    <div class="header_mid-nav-cell-1">
+                        <div class="header_mid-nav-cell-11">
+                            <a href="/classify/classify-dragonbal.html" class="header_mid-nav-item-1">Dragon Ball</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="/classify/classify-naruto.html" class="header_mid-nav-item-1">Naruto</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="/classify/classify-gundam.html" class="header_mid-nav-item-1">Gundam</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="/classify/classify-onepiece.html" class="header_mid-nav-item-1">One Piece</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="/classify/classify-pokemon.html" class="header_mid-nav-item-1">Pokemon</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="/classify/classify-lol.html" class="header_mid-nav-item-1">LoL</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="about.html" class="header_mid-nav-item">ABOUT US</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header_right">
+            <div class="header_right-item">
+                <form class="search_box">
+                        <input class="search_box-input" type="text" placeholder="Tìm kiếm...">
+                    <button class="search_box-btn">
+                        <i class="fa-solid fa-magnifying-glass search-box__item"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header_right-item">
+                    <i class="fa-solid fa-user header_right-item-icon icon_user"></i>
+                    <div class="login__info--cell">
+                        <div class="login__info--content">
+                            <div class="login__info--detail">
+                                <pc class="info__login--title">Thông tin tài khoản:</pc>
+                                <p class="info__login--name"></p>
+                                <p class="info__login--email"></p>
+                            </div>
+                            <div class="logout__btn">Đăng xuất</div>
+                        </div>  
+                    </div> 
+            </div>
+            <div class="header_right-item">
+                <i class="fa-solid fa-bag-shopping header_right-item-icon icon_cart">
+                    <div class="total_card_cell">
+                        <span class="total_card">0</span>
+                    </div>
+                </i>
+            </div>
+            <div class="header_right-item">
+                    <i class="fa-solid fa-bars header_right-item-icon icon_menu"></i>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <ul class="menu__box">
+            
+            <li class="menu__item">
+                <a href="homepage.html" class="menu__item--link">
+                    <img src="image/logo_fatcats.jpg" alt="">
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="homepage.html" class="menu__item--link">Home</a>
+            </li>
+            <li class="menu__item">
+                <a href="shop.html" class="menu__item--link">Shop</a>
+            </li>
+            <li class="menu__item">
+                <a href="about.html" class="menu__item--link">About Us</a>
+            </li>
+            <li class="menu__item menu__close--btn">
+                <i class="fa-solid fa-x " id="close-btn"></i>
+            </li>
+        </ul>
+        <div class="cart_box">
+            <div id="cart_title">
+                <h1>CART</h1>
+                <div class="cart_close-btn">
+                    <i class="fa-solid fa-x " id="close-btn"></i>
+                </div>
+            </div>
+            <div class="cart_product-list"></div>
+            <div class="cart_total-sumit">
+                <div class="total-title">Total</div>
+                <p class="total-price">0</p>
+            </div>
+            <div class="cart_buy-btn">
+                <p id="buy-btn">BUY NOW</p>
+            </div>
+            
+        </div>
+    </header>
+    
+ 
+    <main class="main_about-us">
+        <div class="banner_about-us"></div>
+            <img id="banner_about-us-img" src="image/banner_about-us.jpg" alt="Error"> 
+            <!-- <p id="text-banner_about-us"><b>ABOUT US</b></p> -->
+        </div>
+        <div class="content_about-us">
+            <section class="section_about-us-grid-1">
+                <div class="div-title_about-us--left">
+                    <h1 class="title_about-us-left title_about-effect-left">GIỚI THIỆU VỀ FATCATS</h1>
+                    <p class="p_about-us-left title_about-effect-left"><b>Fatcats</b> - thiên đường cho những tín đồ anime! Chúng tôi tự hào mang đến cho bạn bộ sưu tập đồ sộ các mô hình anime chính hãng từ những series đình đám như Naruto, Gundam, Pokemon, One Piece và nhiều hơn nữa. Với chất lượng tuyệt hảo và độ chi tiết cao, mỗi sản phẩm đều là một tác phẩm nghệ thuật thu nhỏ, sẵn sàng chinh phục trái tim của mọi fan anime.</p>
+                    <br>
+                    <p class="p_about-us-left title_about-effect-left">Bạn là một fan anime đích thực? <b>Fatcats</b> chính là điểm đến lý tưởng dành cho bạn! Tại đây, bạn không chỉ tìm thấy những mô hình anime yêu thích mà còn có cơ hội kết nối với cộng đồng những người cùng sở thích. Hãy cùng chúng tôi khám phá thế giới anime đầy màu sắc và sống động!</p>
+                    <br>
+                    <p class="p_about-us-left title_about-effect-left"><b>Fatcats</b> cam kết mang đến cho khách hàng trải nghiệm mua sắm tuyệt vời nhất. Chúng tôi luôn cập nhật những sản phẩm mới nhất, hot nhất trên thị trường với giá cả cạnh tranh. Đội ngũ nhân viên nhiệt tình và am hiểu sẽ luôn sẵn sàng hỗ trợ bạn tìm kiếm sản phẩm phù hợp.</p>
+                </div>
+                <img class="img_about-us-right" src="image/about-us_banner1.png" alt="Error">
+            </section>
+
+            <section class="section_about-us-grid-2">
+                <img class="img_about-us-left" src="image/about-us_banner2.png" alt="Error">
+                <div class="div-title_about-us--right">
+                    <h1 class="title_about-us-right title_about-effect-right">DẤU ẤN THƯƠNG HIỆU</h1>
+                    <p class="p_about-us-right title_about-effect-right">Điều gì khiến <b>Fatcats</b> trở nên khác biệt? Đó chính là sự tâm huyết và đam mê của chúng tôi đối với anime. Chúng tôi không chỉ bán sản phẩm, mà còn mang đến cho bạn những trải nghiệm tuyệt vời. Từ việc tư vấn chọn mô hình phù hợp đến dịch vụ chăm sóc khách hàng tận tâm, chúng tôi luôn sẵn sàng đồng hành cùng bạn.</p>
+                    <br>
+                    <p class="p_about-us-right title_about-effect-right">Từ những nhân vật anime huyền thoại đến những gương mặt mới nổi, <b>Fatcats</b> Shop luôn cập nhật những mẫu mô hình hot nhất. Chúng tôi cam kết mang đến cho bạn những sản phẩm chất lượng cao, được làm từ các vật liệu tốt nhất, đảm bảo độ bền và độ chi tiết cao. Hãy khám phá thế giới anime đa dạng cùng chúng tôi!</p>
+                    <br>
+                    <p class="p_about-us-right title_about-effect-right">Hoạt động hơn 20 năm qua, chúng tôi luôn luôn mong muốn mang đến quý khách hàng những sản phẩm chất lượng, với mức giá phải chăng và chất liệu tốt nhất, phù hợp với nhiều đối tượng khách hàng. Bên cạnh đó, <b>Fatcats</b> luôn được tin tưởng tuyệt đối của quý khách hàng với tiêu chí làm việc:</p>
+                    <p id="criteria"><b>An Toàn - Uy Tín - Chất Lượng</b></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer_content-logo">
+                <img src="image/logo_fatcats-footer2.png" alt="">
+                <p>FATCATS TEAM</p>
+            </div>
+            <div class="footer_content-contact">
+                <p class="footer_content-contact-title">THÔNG TIN LIÊN HỆ</p>
+                <div class="footer_content-contact-phone_number">
+                    <div class="footer_content-contact-phone_number-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <p>0987654321</p>
+                </div>
+                <div class="footer_content-contact-email">
+                    <div class="footer_content-contact-email-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a href="#emailteam">fcsteam@gmail.com</a>
+                </div>
+                <p class="footer_content-contact-title">MẠNG XÃ HỘI</p>
+                <ul class="list_unstyle footer_content-contact-link">
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content-policy">
+                <p class="footer_content-contact-title">CHÍNH SÁCH</p>
+                <ul class="list_unstyle footer_content-policy-list">
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Bảo Mật Thông Tin</a>
+                    </li>
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Thẻ Thành Viên</a>
+                    </li>
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Đổi Trả Hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content-signinform">
+                <p class="footer_content-contact-title">ĐĂNG KÝ NHẬN THÔNG TIN</p>
+                <form class="input_email">
+                    <input class="input_email-cell input_email-cell-text" type="email" placeholder="Nhập địa chỉ email của bạn">
+                    <input class="input_email-cell" type="submit" value="Gửi">
+                </form>
+            </div>
+        </div>
+        <div class="copyright_contents">
+            <p>Copyright &copy; 2024 Fatcats team.</p>
+        </div>
+        <i class="fa-solid fa-chevron-up" id="btn_backtotop"></i>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

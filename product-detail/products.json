@@ -1,0 +1,485 @@
+[
+    {
+        "id": "db1",
+        "name": "Son Goku-Ultra Vô Cực",
+        "price": "800.000đ",
+        "img" : [
+            "../image/SP/Dragon ball/db1/songoku-ultra-instinct(1).jpg",
+            "../image/SP/Dragon ball/db1/songoku-ultra-instinct(2).jpg",
+            "../image/SP/Dragon ball/db1/songoku-ultra-instinct(3).jpg",
+            "../image/SP/Dragon ball/db1/songoku-ultra-instinct(4).jpg",
+            "../image/SP/Dragon ball/db1/songoku-ultra-instinct(main).jpg"
+        ],
+        "description": {
+            "height": 29,
+            "weight": 1400,
+            "material": "ABS, PVC",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "CHina(nội địa)"
+        }
+    },
+    {
+        "id": "db2",
+        "name": "Gohan Super Saiyan 2",
+        "price": "650.000đ",
+        "img": [
+            "../image/SP/Dragon ball/db2/gohan-supper-saiyan2(1).jpg",
+            "../image/SP/Dragon ball/db2/gohan-supper-saiyan2(2).jpg",
+            "../image/SP/Dragon ball/db2/gohan-supper-saiyan2(3).jpg",
+            "../image/SP/Dragon ball/db2/gohan-supper-saiyan2(4).jpg",
+            "../image/SP/Dragon ball/db2/gohan-supper-saiyan2(main).jpg"
+        ],
+        "description": {
+            "height": 26,
+            "weight": 430,
+            "material": "ABS, PVC",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "CHina"
+        }
+    },
+    {
+        "id": "db3",
+        "name": "Vegeta Siêu Phẩm 3 Đầu",
+        "price": "600.000đ",
+        "img": [
+            "../image/SP/Dragon ball/db3/vegeta-sieu-pham-3-dau(1).jpg",
+            "../image/SP/Dragon ball/db3/vegeta-sieu-pham-3-dau(2).jpg",
+            "../image/SP/Dragon ball/db3/vegeta-sieu-pham-3-dau(3).jpg",
+            "../image/SP/Dragon ball/db3/vegeta-sieu-pham-3-dau(4).jpg",
+            "../image/SP/Dragon ball/db3/vegeta-sieu-pham-3-dau(main).jpg" 
+        ],
+        "description": {
+            "height": 53,
+            "weight": 3100,
+            "material": "ABS, PVC",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "db4",
+        "name": "Son Goku-Kid Đứng Siêu To",
+        "price": "1.250.000đ",
+        "img": [
+            "../image/SP/Dragon ball/db4/songoku-kid-dung-sieu-to(1).jpg",
+            "../image/SP/Dragon ball/db4/songoku-kid-dung-sieu-to(2).jpg",
+            "../image/SP/Dragon ball/db4/songoku-kid-dung-sieu-to(3).jpg",
+            "../image/SP/Dragon ball/db4/songoku-kid-dung-sieu-to(4).jpg",
+            "../image/SP/Dragon ball/db4/songoku-kid-dung-sieu-to(main).jpg"
+            
+        ],
+        "description": {
+            "height": 44,
+            "weight": 3500,
+            "material": "ABS, PVC",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "db5",
+        "name": "Son Goku-Kid Chiến Đấu Siêu To",
+        "price": "1.250.000đ",
+        "img": [
+            "../image/SP/Dragon ball/db5/goku-kid-chien-dau-sieu-to(1).jpg",
+            "../image/SP/Dragon ball/db5/goku-kid-chien-dau-sieu-to(2).jpg",
+            "../image/SP/Dragon ball/db5/goku-kid-chien-dau-sieu-to(3).jpg",
+            "../image/SP/Dragon ball/db5/goku-kid-chien-dau-sieu-to(4).jpg",
+            "../image/SP/Dragon ball/db5/goku-kid-chien-dau-sieu-to(main).jpg"
+        ],
+        "description": {
+            "height": 44,
+            "weight": 3700,
+            "material": "ABS, PVC",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "op1",
+        "name": "Luffy Gear 5",
+        "price": "300.000đ",
+        "img": [
+            "../image/SP/One piece/op1/lufy-nika-gear-5(1).jpg",
+            "../image/SP/One piece/op1/lufy-nika-gear-5(2).jpg",
+            "../image/SP/One piece/op1/lufy-nika-gear-5(3).jpg",
+            "../image/SP/One piece/op1/lufy-nika-gear-5(4).jpg",
+            "../image/SP/One piece/op1/lufy-nika-gear-5(main).jpg"
+        ],
+        "description": {
+            "height": 13,
+            "weight": 300,
+            "material": "nhựa Resin",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "op2",
+        "name": "Ace Hỏa Quyền",
+        "price": "550.000đ",
+        "img": [
+            "../image/SP/One piece/op2/ace-hoa-quyen-dang-dung(1).jpg",
+            "../image/SP/One piece/op2/ace-hoa-quyen-dang-dung(2).jpg",
+            "../image/SP/One piece/op2/ace-hoa-quyen-dang-dung(3).jpg",
+            "../image/SP/One piece/op2/ace-hoa-quyen-dang-dung(4).jpg",
+            "../image/SP/One piece/op2/ace-hoa-quyen-dang-dung(main).jpg"
+        ],
+        "description": {
+            "height": 16,
+            "weight": 450,
+            "material": "ABS, PVC, Prepainted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    
+    
+    {
+        "id": "op3",
+        "name": "Zoro Ai Chibi",
+        "price": "350.000đ",
+        "img": [
+            "../image/SP/One piece/op3/zoro-ai-chibi(1).jpg",
+            "../image/SP/One piece/op3/zoro-ai-chibi(2).jpg",
+            "../image/SP/One piece/op3/zoro-ai-chibi(3).jpg",
+            "../image/SP/One piece/op3/zoro-ai-chibi(4).jpg",
+            "../image/SP/One piece/op3/zoro-ai-chibi(main).jpg"
+        ],
+        "description": {
+            "height": 17,
+            "weight": 330,
+            "material": "ABS, PVC, Prepainted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "op4",
+        "name": "Enel Rồng Sét Chiến Đấu",
+        "price": "690.000đ",
+        "img": [
+            "../image/SP/One piece/op4/enel-rong-set-chien-dau(1).jpg",
+            "../image/SP/One piece/op4/enel-rong-set-chien-dau(2).jpg",
+            "../image/SP/One piece/op4/enel-rong-set-chien-dau(3).jpg",
+            "../image/SP/One piece/op4/enel-rong-set-chien-dau(4).jpg",
+            "../image/SP/One piece/op4/enel-rong-set-chien-dau(main).jpg"
+        ],
+        "description": {
+            "height": 20,
+            "weight": 540,
+            "material": "ABS, PVC",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "op5",
+        "name": "Law Trạng Thái Chiến Đấu",
+        "price": "850.000đ",
+        "img": [
+            "../image/SP/One piece/op5/mo-hinh-law-trang-thai-chien-dau(1).jpg",
+            "../image/SP/One piece/op5/mo-hinh-law-trang-thai-chien-dau(2).jpg",
+            "../image/SP/One piece/op5/mo-hinh-law-trang-thai-chien-dau(3).jpg",
+            "../image/SP/One piece/op5/mo-hinh-law-trang-thai-chien-dau(4).jpg",
+            "../image/SP/One piece/op5/mo-hinh-law-trang-thai-chien-dau(main).jpg"
+        ],
+        "description": {
+            "height": 23,
+            "weight": 590,
+            "material": "ABS, PVC",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "gd1",
+        "name": "Gundam HG BD-R Alus Earthree",
+        "price": "1.200.000đ",
+        "img": [
+            "../image/SP/Gundam/gd1/Gundam HG BD-R Alus Earthree(1).jpg",
+            "../image/SP/Gundam/gd1/Gundam HG BD-R Alus Earthree(2).jpg",
+            "../image/SP/Gundam/gd1/Gundam HG BD-R Alus Earthree(3).jpg",
+            "../image/SP/Gundam/gd1/Gundam HG BD-R Alus Earthree(4).jpg",
+            "../image/SP/Gundam/gd1/Gundam HG BD-R Alus Earthree(main).jpg"
+        ],
+        "description": {
+            "height": 18,
+            "weight": 520,
+            "material": "ABS, Die Cast, PVC, Action/Dolls",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "gd2",
+        "name": "Gundam RG GN-001 GUNDAM EXIA",
+        "price": "1.250.000đ",
+        "img": [
+            "../image/SP/Gundam/gd2/Gundam RG GN-001 GUNDAM EXIA(1).jpg",
+            "../image/SP/Gundam/gd2/Gundam RG GN-001 GUNDAM EXIA(2).jpg",
+            "../image/SP/Gundam/gd2/Gundam RG GN-001 GUNDAM EXIA(3).jpg",
+            "../image/SP/Gundam/gd2/Gundam RG GN-001 GUNDAM EXIA(4).jpg",
+            "../image/SP/Gundam/gd2/Gundam RG GN-001 GUNDAM EXIA(main).jpg"
+        ],
+        "description": {
+            "height": 18,
+            "weight": 544,
+            "material": "ABS, Die Cast, PVC, Action/Dolls",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "gd3",
+        "name": "Gundam HG Dynames",
+        "price": "1.550.000đ",
+        "img": [
+            "../image/SP/Gundam/gd3/Gundam HG Dynames(1).jpg",
+            "../image/SP/Gundam/gd3/Gundam HG Dynames(2).jpg",
+            "../image/SP/Gundam/gd3/Gundam HG Dynames(3).jpg",
+            "../image/SP/Gundam/gd3/Gundam HG Dynames(4).jpg",
+            "../image/SP/Gundam/gd3/Gundam HG Dynames(main).jpg"
+        ],
+        "description": {
+            "height": 25,
+            "weight": 696,
+            "material": "ABS, Die Cast, PVC, Action/Dolls",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "gd4",
+        "name": "RG Astray Gold Frame Amatsu Mina",
+        "price": "1.350.000đ",
+        "img": [
+            "../image/SP/Gundam/gd4/RG Astray Gold Frame Amatsu Mina(1).jpg",
+            "../image/SP/Gundam/gd4/RG Astray Gold Frame Amatsu Mina(2).jpg",
+            "../image/SP/Gundam/gd4/RG Astray Gold Frame Amatsu Mina(3).jpg",
+            "../image/SP/Gundam/gd4/RG Astray Gold Frame Amatsu Mina(4).jpg",
+            "../image/SP/Gundam/gd4/RG Astray Gold Frame Amatsu Mina(main).jpg"
+        ],
+        "description": {
+            "height": 20,
+            "weight": 612,
+            "material": "ABS, Die Cast, PVC, Action/Dolls",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "gd5",
+        "name": "Gundam RG MSN-04 Sazabi",
+        "price": "1.650.000đ",
+        "img": [
+            "../image/SP/Gundam/gd5/Gundam RG MSN-04 Sazabi(1).jpg",
+            "../image/SP/Gundam/gd5/Gundam RG MSN-04 Sazabi(2).jpg",
+            "../image/SP/Gundam/gd5/Gundam RG MSN-04 Sazabi(3).jpg",
+            "../image/SP/Gundam/gd5/Gundam RG MSN-04 Sazabi(4).jpg",
+            "../image/SP/Gundam/gd5/Gundam RG MSN-04 Sazabi(main).jpg"
+        ],
+        "description": {
+            "height": 25,
+            "weight": 723,
+            "material": "ABS, Die Cast, PVC, Action/Dolls",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "p1",
+        "name": "Pokemon Pikachu cosplay Lizadon",
+        "price": "300.000đ",
+        "img": [
+            "../image/SP/Pokemon/p1/Pokemon Pikachu cosplay Lizadon(1).jpg",
+            "../image/SP/Pokemon/p1/Pokemon Pikachu cosplay Lizadon(2).jpg",
+            "../image/SP/Pokemon/p1/Pokemon Pikachu cosplay Lizadon(3).jpg",
+            "../image/SP/Pokemon/p1/Pokemon Pikachu cosplay Lizadon(4).jpg",
+            "../image/SP/Pokemon/p1/Pokemon Pikachu cosplay Lizadon(main).jpg"
+        ],
+        "description": {
+            "height": 12,
+            "weight": 314,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "p2",
+        "name": "Pokemon Pikachu Cosplay Ninja",
+        "price": "300.000đ",
+        "img": [
+            "../image/SP/Pokemon/p2/Pokemon Pikachu Cosplay Ninja(1).jpg",
+            "../image/SP/Pokemon/p2/Pokemon Pikachu Cosplay Ninja(2).jpg",
+            "../image/SP/Pokemon/p2/Pokemon Pikachu Cosplay Ninja(3).jpg",
+            "../image/SP/Pokemon/p2/Pokemon Pikachu Cosplay Ninja(4).jpg",
+            "../image/SP/Pokemon/p2/Pokemon Pikachu Cosplay Ninja(main).jpg"
+        ],
+        "description": {
+            "height": 12,
+            "weight": 314,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "p3",
+        "name": "Pokemon Pikachu Cosplay Mew",
+        "price": "300.000đ",
+        "img": [
+            "../image/SP/Pokemon/p3/Pokemon Pikachu Cosplay Mew(1).jpg",
+            "../image/SP/Pokemon/p3/Pokemon Pikachu Cosplay Mew(2).jpg",
+            "../image/SP/Pokemon/p3/Pokemon Pikachu Cosplay Mew(3).jpg",
+            "../image/SP/Pokemon/p3/Pokemon Pikachu Cosplay Mew(4).jpg",
+            "../image/SP/Pokemon/p3/Pokemon Pikachu Cosplay Mew(main).jpg"
+        ],
+        "description": {
+            "height": 12,
+            "weight": 314,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "p4",
+        "name": "Pokemon Pikachu Cosplay Nyasu",
+        "price": "300.000đ",
+        "img": [
+            "../image/SP/Pokemon/p4/Pokemon Pikachu Cosplay Nyasu(1).jpg",
+            "../image/SP/Pokemon/p4/Pokemon Pikachu Cosplay Nyasu(2).jpg",
+            "../image/SP/Pokemon/p4/Pokemon Pikachu Cosplay Nyasu(3).jpg",
+            "../image/SP/Pokemon/p4/Pokemon Pikachu Cosplay Nyasu(4).jpg",
+            "../image/SP/Pokemon/p4/Pokemon Pikachu Cosplay Nyasu(main).jpg"
+        ],
+        "description": {
+            "height": 12,
+            "weight": 314,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "n1",
+        "name": "Naruto Lục đạo Cửu Vĩ Rasengan",
+        "price": "699.000đ",
+        "img": [
+            "../image/SP/Naruto/n1/Naruto Lục đạo Cửu Vĩ Rasengan(1).jpg",
+            "../image/SP/Naruto/n1/Naruto Lục đạo Cửu Vĩ Rasengan(2).jpg",
+            "../image/SP/Naruto/n1/Naruto Lục đạo Cửu Vĩ Rasengan(3).jpg",
+            "../image/SP/Naruto/n1/Naruto Lục đạo Cửu Vĩ Rasengan(4).jpg",
+            "../image/SP/Naruto/n1/Naruto Lục đạo Cửu Vĩ Rasengan(main).jpg"
+        ],
+        "description": {
+            "height": 28,
+            "weight": 437,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "n2",
+        "name": "Minato Dáng Đứng",
+        "price": "700.000đ",
+        "img": [
+            "../image/SP/Naruto/n2/Minato Dáng Đứng(1).jpg",
+            "../image/SP/Naruto/n2/Minato Dáng Đứng(2).jpg",
+            "../image/SP/Naruto/n2/Minato Dáng Đứng(3).jpg",
+            "../image/SP/Naruto/n2/Minato Dáng Đứng(4).jpg",
+            "../image/SP/Naruto/n2/Minato Dáng Đứng(main).jpg"
+        ],
+        "description": {
+            "height": 26,
+            "weight": 317,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "n3",
+        "name": "Naruto Cửu Vĩ",
+        "price": "750.000đ",
+        "img": [
+            "../image/SP/Naruto/n3/Mô Hình Naruto Cửu Vĩ(1).jpg",
+            "../image/SP/Naruto/n3/Mô Hình Naruto Cửu Vĩ(2).jpg",
+            "../image/SP/Naruto/n3/Mô Hình Naruto Cửu Vĩ(3).jpg",
+            "../image/SP/Naruto/n3/Mô Hình Naruto Cửu Vĩ(4).jpg",
+            "../image/SP/Naruto/n3/Mô Hình Naruto Cửu Vĩ(main).jpg"
+        ],
+        "description": {
+            "height": 23,
+            "weight": 367,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "l1",
+        "name": "The Ruined King Viego",
+        "price": "999.000đ",
+        "img": [
+            "../image/SP/LOL/l1/The Ruined King Viego(1).jpg",
+            "../image/SP/LOL/l1/The Ruined King Viego(2).jpg",
+            "../image/SP/LOL/l1/The Ruined King Viego(3).jpg",
+            "../image/SP/LOL/l1/The Ruined King Viego(4).jpg",
+            "../image/SP/LOL/l1/The Ruined King Viego(main).jpg"
+        ],
+        "description": {
+            "height": 31,
+            "weight": 687,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    },
+    {
+        "id": "l2",
+        "name": "Jinx",
+        "price": "999.000đ",
+        "img": [
+            "../image/SP/LOL/l2/Jinx(1).jpg",
+            "../image/SP/LOL/l2/Jinx(2).jpg",
+            "../image/SP/LOL/l2/Jinx(3).jpg",
+            "../image/SP/LOL/l2/Jinx(4).jpg",
+            "../image/SP/LOL/l2/Jinx(main).jpg"
+        ],
+        "description": {
+            "height": 31,
+            "weight": 693,
+            "material": "ABS & PVC, Pre-painted",
+            "status": "còn mới",
+            "style": "đứng, cố định",
+            "origin": "China(nội địa)"
+        }
+    }
+]

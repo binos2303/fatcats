@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Home</title>
+    <link rel="icon" href="image/favicon_fatcats.ico" type="image/ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_left">
+            <div class="header_logo">
+                <a href="homepage.html"><img src="image/logo_fatcats.jpg" id="logo-FATCATS"></a>
+            </div>
+        </div>
+        <div class="header_mid">
+            <nav class="header_mid-nav">
+                <div class="header_mid-nav-cell">
+                    <a href="homepage.html" class="header_mid-nav-item">HOME</a>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="shop.html" class="header_mid-nav-item">SHOP</a>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="classify/classify.html" class="header_mid-nav-item">CLASSIFY</a>
+                    <i class="fa-solid fa-angle-down icon_classify"></i>
+                    <div class="header_mid-nav-cell-1">
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-dragonbal.html" class="header_mid-nav-item-1">Dragon Ball</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-naruto.html" class="header_mid-nav-item-1">Naruto</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-gundam.html" class="header_mid-nav-item-1">Gundam</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-onepiece.html" class="header_mid-nav-item-1">One Piece</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-pokemon.html" class="header_mid-nav-item-1">Pokemon</a>
+                        </div>
+                        <div class="header_mid-nav-cell-11">
+                            <a href="classify/classify-lol.html" class="header_mid-nav-item-1">LoL</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_mid-nav-cell">
+                    <a href="about.html" class="header_mid-nav-item">ABOUT US</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header_right">
+            <div class="header_right-item">
+                <form class="search_box">
+                        <input class="search_box-input" type="text" placeholder="Tìm kiếm...">
+                    <button class="search_box-btn">
+                        <i class="fa-solid fa-magnifying-glass search-box__item"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="header_right-item">
+                <i class="fa-solid fa-user header_right-item-icon icon_user"></i>
+                <div class="login__info--cell">
+                    <div class="login__info--content">
+                        <div class="login__info--detail">
+                            <pc class="info__login--title">Thông tin tài khoản:</pc>
+                            <p class="info__login--name"></p>
+                            <p class="info__login--email"></p>
+                        </div>
+                        <div class="logout__btn">Đăng xuất</div>
+                    </div>
+                </div> 
+            </div>
+            <div class="header_right-item">
+                <i class="fa-solid fa-bag-shopping header_right-item-icon icon_cart">
+                    <div class="total_card_cell">
+                        <span class="total_card">0</span>
+                    </div>
+                </i>
+            </div>
+            <div class="header_right-item">
+                    <i class="fa-solid fa-bars header_right-item-icon icon_menu"></i>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <ul class="menu__box">
+            
+            <li class="menu__item">
+                <a href="homepage.html" class="menu__item--link">
+                    <img src="image/logo_fatcats.jpg" alt="">
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="homepage.html" class="menu__item--link">Home</a>
+            </li>
+            <li class="menu__item">
+                <a href="shop.html" class="menu__item--link">Shop</a>
+            </li>
+            <li class="menu__item">
+                <a href="about.html" class="menu__item--link">About Us</a>
+            </li>
+            <li class="menu__item menu__close--btn">
+                <i class="fa-solid fa-x " id="close-btn"></i>
+            </li>
+        </ul>
+        <div class="cart_box">
+            <div id="cart_title">
+                <h1>CART</h1>
+                <div class="cart_close-btn">
+                    <i class="fa-solid fa-x " id="close-btn"></i>
+                </div>
+            </div>
+            <div class="cart_product-list"></div>
+            <div class="cart_total-sumit">
+                <div class="total-title">Total</div>
+                <p class="total-price">0</p>
+            </div>
+            <div class="cart_buy-btn">
+                <p id="buy-btn">BUY NOW</p>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="main_home">
+        <div class="slider-home">
+            <div class="slides">
+                    <img class="slides-item" src="image/SALE UP TO 70.png" alt="Ảnh 1">
+                    <img class="slides-item" src="image/COMING SOON.png" alt="Ảnh 2">
+                    <img class="slides-item" src="image/VOUCHER 100K.png" alt="Ảnh 3">
+                    <img class="slides-item" src="image/SALE UP TO 70.png" alt="Ảnh 1">
+            </div>
+
+            <div class="dots-container">            
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <div class="slogan">
+            <div class="frame-slogan">
+                <div class="slogan_home">MUA NGAY MÔ HÌNH - RINH NGAY QUÀ VIP</div>
+                <div class="slogan_home1">MUA NGAY MÔ HÌNH - RINH NGAY QUÀ VIP</div>
+            </div>
+        </div>
+
+        <div class="discount discount-triangle">
+            <div class="discount-container_home">
+              <div class="discount-text">
+                <p class="discount-p_home"><b>SIÊU GIẢM GIÁ <br> 50%</b></p>
+              </div>
+              <div class="discount-img">
+                <img class="discount-img_home" src="image/img_discount_home.png" alt="ERROR">
+              </div>
+              <div class="discount-infor">
+                <div class="discount-name"><p>Super Saiyan Son Goku & Super Saiyan Son Gohan</p></div>
+                <div class="discount-price_home"><p>Chỉ từ <b>700.000 VNĐ</b></p></div>
+                <a href="shop.html" class="discount-button"><button class="button-discount_home"><b>MUA NGAY</b></button></a>
+              </div>
+            </div>
+          </div>
+
+        
+
+        <div class="product-home">
+            <h1 class="title_home">NHỮNG SẢN PHẨM KHUYẾN MÃI LỚN NHẤT</h1>
+            <div class="product_list">
+                <div class="product" id="l1" data-type="lol">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/LOL/l1/The Ruined King Viego(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=l1" class="product_name">The Ruined King Viego</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">1.100.000<span><u>đ</u></span></span>
+                        <p class="product_prise">999.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                    </div>
+                </div>
+                <div class="product" id="l2" data-type="lol">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/LOL/l2/Jinx(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=l2" class="product_name">Jinx</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">1.150.000<span><u>đ</u></span></span>
+                        <p class="product_prise">999.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                    </div>
+                </div>
+                <div class="product" id="n1" data-type="naruto">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Naruto/n1/Naruto Lục đạo Cửu Vĩ Rasengan(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=n1" class="product_name">Naruto Lục đạo Cửu Vĩ Rasengan</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">950.000<span><u>đ</u></span></span>
+                        <p class="product_prise">699.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                    </div>
+                </div>
+            </div>
+            <a href="shop.html" class="transfer__btn">
+                <div class="transfer__title">Xem thêm</div>
+            </a>
+        </div>
+        
+
+        <div class="product-home">
+            <h1 class="title_home">NHỮNG SẢN PHẨM BÁN CHẠY NHẤT</h1>
+            <div class="product_list">
+                <div class="product" id="db4" data-type="dragonball">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/Dragon ball/db4/songoku-kid-dung-sieu-to(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=db4" class="product_name">Son Goku-Kid Đứng Siêu To</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">1.250.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">B-seller</p>
+                    </div>
+                </div>
+                <div class="product" id="op1" data-type="onepiece">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/One piece/op1/lufy-nika-gear-5(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=op1" class="product_name">Luffy Gear 5</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <p class="product_prise">300.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">B-seller</p>
+                    </div>
+                </div>
+                <div class="product" id="op4" data-type="onepiece">
+                    <div class="product_img-cell">
+                        <img class="product_img" src="image/SP/One piece/op4/enel-rong-set-chien-dau(main).jpg" alt="">
+                    </div>
+                    <div class="product_name-cell">
+                        <a href="product-detail/product.html?id=op4" class="product_name">Enel Rồng Sét Chiến Đấu</a>
+                    </div>
+                    <div class="product_prise-cell">
+                        <span class="product_price-sale">950.000<span><u>đ</u></span></span>
+                        <p class="product_prise">690.000<span><u>đ</u></span></p>
+                    </div>
+                    <div class="product_addcart-cell">
+                        <i class="fa-solid fa-cart-plus addcart_icon"></i>
+                    </div>
+                    <div class="product_label-cell">
+                        <p class="product_label-title">Sale</p>
+                        <p class="product_label-title">B-seller</p>
+                    </div>
+                </div>
+            </div>
+            <a href="shop.html" class="transfer__btn">
+                <div class="transfer__title">Xem thêm</div>
+            </a>
+        </div>
+        
+        <div class="product_cell-line"></div>
+        
+    </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_content-logo">
+                <img src="image/logo_fatcats-footer2.png" alt="">
+                <p>FATCATS TEAM</p>
+            </div>
+            <div class="footer_content-contact">
+                <p class="footer_content-contact-title">THÔNG TIN LIÊN HỆ</p>
+                <div class="footer_content-contact-phone_number">
+                    <div class="footer_content-contact-phone_number-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <p>0987654321</p>
+                </div>
+                <div class="footer_content-contact-email">
+                    <div class="footer_content-contact-email-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a href="#emailteam">fcsteam@gmail.com</a>
+                </div>
+                <p class="footer_content-contact-title">MẠNG XÃ HỘI</p>
+                <ul class="list_unstyle footer_content-contact-link">
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer_content-contact-enternal-link">
+                        <a href="" class="link">
+                            <i class="link-icon fa-brands fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content-policy">
+                <p class="footer_content-contact-title">CHÍNH SÁCH</p>
+                <ul class="list_unstyle footer_content-policy-list">
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Bảo Mật Thông Tin</a>
+                    </li>
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Thẻ Thành Viên</a>
+                    </li>
+                    <li class="policy_internal-content">
+                        <a href="" class="policy-content-link">Chính Sách Đổi Trả Hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_content-signinform">
+                <p class="footer_content-contact-title">ĐĂNG KÝ NHẬN THÔNG TIN</p>
+                <form class="input_email">
+                    <input class="input_email-cell input_email-cell-text" type="email" placeholder="Nhập địa chỉ email của bạn">
+                    <input class="input_email-cell" type="submit" value="Gửi">
+                </form>
+            </div>
+        </div>
+        <div class="copyright_contents">
+            <p>Copyright &copy; 2024 Fatcats team.</p>
+        </div>
+        <i class="fa-solid fa-chevron-up" id="btn_backtotop"></i>
+    </footer>
+    <script src="main.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
