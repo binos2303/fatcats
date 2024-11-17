@@ -27,8 +27,8 @@ formLogin.addEventListener("submit",function(e){
         alertError.style.display = "block";
     } else{
         setTimeout(function() {
-            window.location.href = "././index.html";             
-         }, 500); 
+            window.location.href = "././welcome.html";             
+         }, 700); 
     //lưu thông tin của user đăng nhập lên local
     const exit= JSON.parse(localStorage.getItem("checkLogin"));
     exit.check=1;
