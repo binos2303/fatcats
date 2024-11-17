@@ -33,7 +33,7 @@ iconCart.addEventListener('click', openCart);
 closeCartIcon.addEventListener('click', closeCart);
 
 document.addEventListener("click", function(event) {
-    if (cartBox.classList.contains("active") && !cartBox.contains(event.target) && event.target !== iconCart) {
+    if (cartBox.classList.contains("active") && cartBox.contains(event.target) && event.target !== iconCart) {
         cartBox.classList.remove("active");
         overlay.classList.remove("active");
         document.body.style.overflow = "auto";
@@ -60,7 +60,7 @@ iconUser.addEventListener("click", function(){
         const exit= {check:0};
         localStorage.setItem("checkLogin", JSON.stringify(exit));
 
-        window.location.href="/register-login/login.html";
+        window.location.href="register-login/login.html";
     }
     else if(checkLogin.check===1){
         const userLogin = JSON.parse(localStorage.getItem("userLogin"));
@@ -75,7 +75,7 @@ iconUser.addEventListener("click", function(){
             iconUser.nextElementSibling.style.display="block";
         }  
     }else{
-        window.location.href="/register-login/login.html";
+        window.location.href="register-login/login.html";
 
     }
 });
