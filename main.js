@@ -75,6 +75,7 @@ iconUser.addEventListener("click", function(){
 
 // logout tắc ô thông tin đăng nhập
 logoutBTN.addEventListener("click", function(){
+    iconUser.classList.remove("active");
     const checkLogin = JSON.parse(localStorage.getItem("checkLogin"));
     checkLogin.check=0;
     localStorage.setItem("checkLogin", JSON.stringify(checkLogin));
