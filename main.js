@@ -67,7 +67,7 @@ iconUser.addEventListener("click", function(){
             iconUser.nextElementSibling.style.display="block";
         }  
     }else{
-        window.location.href="/register-login/login.html";
+        window.location.href="fatcats/register-login/login.html";
         // iconUser.classList.remove("active");
     }
 });
