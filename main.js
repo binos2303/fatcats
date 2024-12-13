@@ -84,7 +84,7 @@ logoutBTN.addEventListener("click", function(){
 //------------------------------------------------------------------
 //khi nhấn bất cứ đâu thì sẽ đóng ô thông tin người dùng
 document.addEventListener("click", function(event) {
-    if (loginInfoCell.style.display=="block" && !loginInfoCell.contains(event.target) && event.target === iconUser) {
+    if (loginInfoCell.style.display=="block" && !loginInfoCell.contains(event.target) && event.target !== iconUser) {
         loginInfoCell.style.display="none"
         iconUser.classList.remove("active");
     }
