@@ -5,7 +5,7 @@ const userLoginElement = document.getElementById("userLogin");
 
 userLoginElement.innerHTML = userLogin.userName;
 setTimeout(function() {
-    window.location.href = "/fatcats/homepage.html";             
+    window.location.href = "/fatcats/index.html";             
  }, 6000); 
 
  
